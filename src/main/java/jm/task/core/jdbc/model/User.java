@@ -1,8 +1,5 @@
 package jm.task.core.jdbc.model;
-
-import jakarta.persistence.*;
-
-//import javax.persistence.*;
+import javax.persistence.*;
 
 @Entity
 @Table(name = "users")
@@ -17,7 +14,7 @@ public class User {
     @Column(name = "lastname", nullable = false, length = 64)
     private String lastName;
 
-    @Column(name = "age", nullable = false, columnDefinition = "SMALLINT")
+    @Column(name = "age", nullable = false)
     private Byte age;
 
     public User() {
