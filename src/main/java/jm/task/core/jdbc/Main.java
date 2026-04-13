@@ -28,8 +28,8 @@ public class Main {
             }
         }
 
-//        userService.cleanUsersTable(); // очистка таблицы
-//
-//        userService.dropUsersTable(); // удаление таблицы
+        userService.cleanUsersTable(); // очистка таблицы
+
+        userService.dropUsersTable(); // удаление таблицы
     }
 }
